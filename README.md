@@ -1,3 +1,5 @@
+# vue-strapi-blog
+Frontend blog made in Vue for a Strapi headless CMS learning project
 # vite-project
 
 This template should help get you started developing with Vue 3 in Vite.
