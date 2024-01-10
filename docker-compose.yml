@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  vue-dev:
+    image: viteimage
+    build: .
+    ports:
+      - "3030:3030"
+    volumes:
+      - /home/node/app/node_modules
+      - ./:/home/node/app
+    user: "node"
